@@ -32,7 +32,6 @@ git clone https://github.com/brumar/trellorofi.git
 cd trellorofi
 pipenv install -r requirements.txt
 ```
-Note: On my machine it fails to install a dependency (the rofi-python fork). What I generally do is to activate the venv, then pip install the dependency manually.
 
 Then edit your settings.py as explained above. Then :
 
