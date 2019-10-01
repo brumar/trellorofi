@@ -1,9 +1,11 @@
-# ROFI GTD
+# TRELLOROFI
 
-Dead simple python script for people who like Rofi, GTD and Trello. If so, please note that this a very minimalist project, yet it may be a good starting poin to any pythonista who desire to manipulate trello boards using Rofi.
+## Introduction
+
+Dead simple python script for people who like Rofi and Trello. If so, please note that this a very minimalist project which is centered on the Getting Things Done methodology. Yet it may be a good starting point to any pythonista desiring to manipulate trello boards using Rofi.
 
 
-# Configuration and requirements
+## Configuration and requirements
 
 You need python3, pipenv, rofi, a Trello account.
 Go find your Trello API keys there https://trello.com/app-key and generate a token. Keep these secrets and edit your `settings.py` accordingly.
@@ -23,8 +25,7 @@ Use the trick described [here](https://customer.io/actions/trello/) to find the 
 	- Add it in the PROCESS_LIST
 	- Open it with your web browser
 
-
-# Usage
+## Usage
 
 ```bash
 git clone https://github.com/brumar/trellorofi.git
@@ -49,18 +50,20 @@ pipenv run python trellorofi.py
 Using pipenv is my favorite trick to run a python script with its proper virtualenv activated.
 If you don't use pipenv, activate your virtualenv as you usually do.
 
-# A notes on dependencies
+# NOTES
+
+## A note on dependencies
 
 Rofi is called using the awesome [python-rofi](https://github.com/bcbnz/python-rofi). Yet I wanted some adjustements on the initial project, so the dependency used is a little fork I made.
 
-# Missing Features
+## Missing Features
 
 At the time of this Readme, the script is just 66 lines of code. If you know a little bit of python, You won't have any difficulty to change and add features. I am not sure what I would do with pull requests (if any). If you do a nice fork, please publicize it in the section below.
 
-# Interesting forks
+## Interesting forks
 
 URL ; What's in there
 
-# License
+## License
 
 MIT
