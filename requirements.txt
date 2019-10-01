@@ -1,0 +1,3 @@
+-i https://pypi.org/simple
+git+https://github.com/brumar/python-rofi.git#egg=python-rofi
+py-trello==0.15.0

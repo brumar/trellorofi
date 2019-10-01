@@ -1,0 +1,8 @@
+ACTION_LIST = ""
+INBOX_LIST = ""
+PROCESS_LIST = ""
+NOTES_LIST = ""
+
+API_KEY=''
+API_SECRET=''
+TOKEN=''
